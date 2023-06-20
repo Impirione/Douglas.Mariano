@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+.tabuleiro{
+    background-color: blue;
+    padding: 11px;
+}
+
+.casa{
+    background-color: bisque;
+    width: 100px;
+    height: 100px;
+    display: flex;
+}
+
+.disco{
+    background-color: black;
+    border: 4px;
+    border-radius: 50%;
+    
+
+}
+
