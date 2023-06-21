@@ -26,3 +26,17 @@ function recebe(evento){
 function passa(evento){
     evento.preventDefault();
 }
+
+function setup(){
+    const tabuleiro = getTabuleiro();
+    for(let i=0; i<tabuleiro.length;i++){
+        const casa = tabuleiro[i];
+        const eCasa = c
+    }
+}
+
+function disco(casa, k){
+    const eDisco = document.createElement('div');
+    eDisco.draggable = true;
+    eDisco.dataset
+}
